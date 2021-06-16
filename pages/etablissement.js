@@ -5,6 +5,7 @@ import { Container } from 'reactstrap';
 //import PageBannerSection from '../components/molecule/PageBannerSection';
 //import TitleSection from '../components/molecule/TitleSection';
 import Texte from '../components/shared/Texte';
+import CoursCard from "../components/shared/CourCard"
 
 export default function Etablissement() {
 
@@ -22,8 +23,7 @@ export default function Etablissement() {
 
   return (
     <div className="App">
-        <p>Etablissement</p>
-
+      <CoursCard/>
     </div>
   )
 }
