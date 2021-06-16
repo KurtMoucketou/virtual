@@ -4,7 +4,8 @@ const SousTitle = (props) => {
   const { texte, color, text_transform } = props;
   return <SousTitleStc 
           text-transform={text_transform} 
-          color={color}>{texte}</SousTitleStc>;
+          color={color}>{texte}
+        </SousTitleStc>;
 };
 
 export default SousTitle;
