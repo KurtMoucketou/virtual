@@ -25,15 +25,15 @@ const Header = (props) => {
             texte:"Accueil"
         },
         {
-            lien:"",
+            lien:"/etablissement",
             texte:"établisements"
         },
         {
-            lien:"",
+            lien:"/formation",
             texte:"formations"
         },
         {
-            lien:"",
+            lien:"/metier",
             texte:"Métiers"
         },
         {

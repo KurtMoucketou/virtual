@@ -2,11 +2,11 @@ import {
     NavLink,
 } from 'reactstrap'
 import MenuStc from './Menu.stc';
-
+import Link from "next/link"
 const Menu=(props)=>{
     return (
     <MenuStc>
-        <NavLink href={props.lien}>{props.texte}</NavLink>
+        <Link href={props.lien}>{props.texte}</Link>
     </MenuStc>
     )
 }

@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="App">
       <Head>
-        <title>Dentist</title>
+        <title>Ofa | Accueil</title>
         <link rel="icon" href="/img/favicon.ico" />
       </Head>
 
