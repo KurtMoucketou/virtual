@@ -3,13 +3,13 @@ import styled from "styled-components";
 export const SousTitleStc = styled.h4`
     padding-bottom: 15px;
     position: relative; 
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 15px${props => props.font__size || "15px"};
+    font-weight: ${props => props.font__weight || "500"};
     line-height: 1;
     display: block;
     margin-bottom: 10px;
     letter-spacing: 2px;
-    text-transform: ${props => props.text_transform || "uppercase"};
+    text-transform: ${props => props.text__transform || "uppercase"};
     color: ${props => props.color || "#8c89a2"};
     
     &:before

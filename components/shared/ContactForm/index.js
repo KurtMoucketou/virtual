@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Container, 
+    Row,
     Col, 
     Form, 
     FormGroup, 
@@ -9,7 +10,9 @@ import { Container,
     DropdownMenu, 
     DropdownItem,
     Button } from 'reactstrap';
+import Titre from "../Titre";
 import ContactFormStc from "./contactForm.stc";
+import SousTitle from '../SousTitle';
 
 const FormContact = (props) => {
     const [dropdownOpen, setOpen] = useState(false);
@@ -22,6 +25,24 @@ const FormContact = (props) => {
 
   return (
     <ContactFormStc>
+    <Container className="mb-5">
+        <Row>
+          <Col lg="4">
+            
+          </Col>
+
+          <Col lg="4" className="header__form">
+          <SousTitle text__transform="uppercase" font__weight="500" color="#8c89a2" texte="ÉTABLISSEMENTS" className="mb-0" /><br></br>
+            <Titre couleur="#3f3a64" poid_font="700" taille="34px" texte="La liste des écoles" />
+          </Col>
+
+          <Col smlg="4">
+            
+          </Col>
+
+        </Row>
+    </Container>
+
     <Form >
       <Container>
       <FormGroup row>      

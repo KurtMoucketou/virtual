@@ -26,20 +26,6 @@ export default function Etablissement() {
   return (
     <div className="App">
       <div>
-        <Row>
-          <Col sm="4">
-            
-          </Col>
-
-          <Col sm="4">
-            <Titre couleur="#3f3a64" poid_font="700" taille="34px" texte="La liste des écoles" />
-          </Col>
-
-          <Col sm="4">
-            
-          </Col>
-
-        </Row>
       <FormContact/>
       <CoursCard/>
       </div>
