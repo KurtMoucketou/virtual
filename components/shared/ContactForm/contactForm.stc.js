@@ -11,6 +11,10 @@ const ContactFormStc = Styled.div`
         margin-right: -15px;
         margin-left: -15px;
     }
+    
+    .header__form{
+        display: block; 
+    }
 
     FormGroup{
         width: -webkit-fill-available;
@@ -47,6 +51,10 @@ const ContactFormStc = Styled.div`
         border-radius: 3px;
         outline: 0;
         background-color: #f5f5f5;
+    }
+
+    .sousTitle__formContact{
+        margin-right: 40px;
     }
 
 `

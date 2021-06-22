@@ -32,7 +32,7 @@ const FormContact = (props) => {
           </Col>
 
           <Col lg="4" className="header__form">
-          <SousTitle text__transform="uppercase" font__weight="500" color="#8c89a2" texte="ÉTABLISSEMENTS" className="mb-0" /><br></br>
+          <SousTitle text__transform="uppercase" font__weight="500" text__align="center" color="#8c89a2" texte="ÉTABlISSEMENTS" className="sousTitle__formContact mb-0" /><br></br>
             <Titre couleur="#3f3a64" poid_font="700" taille="34px" texte="La liste des écoles" />
           </Col>
 
