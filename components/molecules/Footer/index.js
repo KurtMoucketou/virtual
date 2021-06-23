@@ -116,7 +116,7 @@ const Footer = (props) => {
 
         <Row className="row max-mt-20">
           <Col lg={10} className="colCopy">
-                <Texte fontTaille="13px" poid_font="300" couleur="#ababab" alignement="center" className="copyright">© 2021 ofa oriente by Dubani Agency. <a href="">All Rights Reserved</a></Texte>
+                <Texte fontTaille="12px" poid_font="400" couleur="#ababab" alignement="center" className="copyright">© 2021 ofa oriente by Dubani Agency. <a href="">All Rights Reserved</a></Texte>
           </Col>
 
         </Row>

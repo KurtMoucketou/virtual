@@ -22,11 +22,9 @@ export default function Etablissement() {
 
   return (
     <div className="App">
-      <div>
       <FormContact/>
       <CoursCard/>
       <Footer/>
       </div>
-    </div>
   )
 }

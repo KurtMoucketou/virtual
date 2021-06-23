@@ -15,30 +15,6 @@ const ElementMenuStc=Styled.li `
         text-decoration:none;
     }
 
-    .max-mt-20{
-        margin-top: 20px;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        margin-right: -15px;
-        margin-left: -15px;
-        box-sizing: inherit;
-    }
-
-    .colCopy{
-        flex-basis: 0;
-        -ms-flex-positive: 1;
-        flex-grow: 1;
-        max-width: 100%;
-        display: block;
-        width: 100%;
-        padding-right: 15px;
-        padding-left: 15px;
-    }
-
-    a{
-        text-decoration: none!important;
-    }
 
 `;
 export default ElementMenuStc;
