@@ -1,6 +1,6 @@
 import Styled from 'styled-components'
 
-const ContactFormStc = Styled.div`
+const SectionFormStc = Styled.div`
 
         width: 100%;
         height: 100%;
@@ -60,4 +60,4 @@ const ContactFormStc = Styled.div`
 
 
 `
-export default ContactFormStc;
+export default SectionFormStc;

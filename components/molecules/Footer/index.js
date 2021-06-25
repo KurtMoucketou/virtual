@@ -38,7 +38,7 @@ const Footer = (props) => {
         <Row className="row__footer">
           <Col xl={5} className="col-xl-3 col-md-4 col-sm-7 col-12 max-mb-50" >
               <div className="footer__widget">
-                  <Titre couleur="#3f3a64" poid_font="700" taille="18px" texte="ofaoriente.com" />
+                  <Titre text__align="left" couleur="#3f3a64" poid_font="700" taille="18px" texte="ofaoriente.com" />
               
               <div className="footer__widget__content">
                   <div className="content">

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SousTitleStc = styled.h4`
-    padding-bottom: 15px;
+    padding-bottom: ${props => props.padding__bottom || "2px"};
     position: relative; 
     font-size: ${props => props.font__size || "15px"};
     font-weight: ${props => props.font__weight || "500"};

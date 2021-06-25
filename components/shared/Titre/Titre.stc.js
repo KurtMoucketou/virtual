@@ -5,5 +5,6 @@ const TitreStc=Styled.h1`
     font-size:${(props)=>props.taille || "20px"};
     margin-bottom:${(props)=>props.marge_bas || "auto"};
     font-weight:${(props)=>props.poid_font || "600"};
+    text-align: ${(props)=>props.text__align || "-webkit-center"};;
 `;
 export default TitreStc;

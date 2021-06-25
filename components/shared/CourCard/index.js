@@ -18,7 +18,7 @@ const CoursCard = (props) => {
                             </div>
 
                             <div className="info">
-                                <Titre texte="IFIAG vocational School" className="titre__Card" />
+                                <Titre text__align="left" texte="IFIAG vocational School" className="titre__Card" />
                                 <Texte color="#000" fontTaille="16px" alignement="justify-center">Centre des Etudes Supérieures d’Ingénierie et de Management</Texte>
                                 <ul>
                                     <li>
@@ -42,7 +42,7 @@ const CoursCard = (props) => {
                             </div>
 
                             <div className="info">
-                                <Titre texte="CESIM" />
+                                <Titre text__align="left" texte="CESIM" />
                                 <Texte fontTaille="16px" alignement="justify-center">Centre des Etudes Supérieures d’Ingénierie et de Management</Texte>
                                 <ul>
                                     <li>
@@ -68,7 +68,7 @@ const CoursCard = (props) => {
                             </div>
 
                             <div className="info">
-                                <Titre texte="ESCA" className="titre__Card" />
+                                <Titre text__align="left" texte="ESCA" className="titre__Card" />
                                 <Texte color="#000" fontTaille="16px" alignement="justify-center">ESCA Ecole de Management</Texte>
                                 <ul>
                                     <li>
@@ -92,7 +92,7 @@ const CoursCard = (props) => {
                             </div>
 
                             <div className="info">
-                                <Titre texte="Art’Com Sup" />
+                                <Titre text__align="left" texte="Art’Com Sup" />
                                 <Texte fontTaille="16px" alignement="justify-center">Ecole Supérieure De Design.</Texte>
                                 <ul>
                                     <li>
@@ -118,7 +118,7 @@ const CoursCard = (props) => {
                             </div>
 
                             <div className="info">
-                                <Titre texte="AEROSUP" className="titre__Card" />
+                                <Titre text__align="left" texte="AEROSUP" className="titre__Card" />
                                 <Texte color="#000" fontTaille="16px" alignement="justify-center">Ecole Supérieure de l'Aéronautique et de la Haute Technologie</Texte>
                                 <ul>
                                     <li>
@@ -142,7 +142,7 @@ const CoursCard = (props) => {
                             </div>
 
                             <div className="info">
-                                <Titre texte="ESTEM" />
+                                <Titre text__align="left" texte="ESTEM" />
                                 <Texte fontTaille="16px" alignement="justify-center">Ecole Supérieure en Ingénierie de L’Information, Télécommunication, Management & Genie Civil</Texte>
                                 <ul>
                                     <li>
@@ -168,7 +168,7 @@ const CoursCard = (props) => {
                             </div>
 
                             <div className="info">
-                                <Titre texte="ADALIA" className="titre__Card" />
+                                <Titre text__align="left" texte="ADALIA" className="titre__Card" />
                                 <Texte color="#000" fontTaille="16px" alignement="justify-center">ADALIA School of Business</Texte>
                                 <ul>
                                     <li>
@@ -192,7 +192,7 @@ const CoursCard = (props) => {
                             </div>
 
                             <div className="info">
-                                <Titre texte="Ostelea Rabat" />
+                                <Titre text__align="left" texte="Ostelea Rabat" />
                                 <Texte fontTaille="16px" alignement="justify-center">l'école supérieure du tourisme et de l'hôtellerie</Texte>
                                 <ul>
                                     <li>
