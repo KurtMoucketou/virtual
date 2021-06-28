@@ -25,7 +25,7 @@ const FormationsCardStc = Styled.div`
         cursor: pointer;
     }
 
-    .cours__2{
+    .formation__2{
         background: #faf8f6;
         display: flex;
         overflow: hidden;
@@ -36,27 +36,17 @@ const FormationsCardStc = Styled.div`
         transition: all .25s cubic-bezier(.645,.045,.355,1);
     }
 
-    .cours__2::after, .cours__2::before {
+    .formation__2::after, .formation__2::before {
         box-sizing: border-box;
     }
 
-    .cours__2::before, .cours__2::after {
+    .formation__2::before, .formation__2::after {
         box-sizing: inherit;
     }
 
     .col__container{
         max-width: 50%;
         flex: 0 0 50%;
-    }
-
-    .thumbnail{
-        width: 105px;
-        height: 80%;
-        position: relative;
-        display: flex;
-        overflow: hidden;
-        flex-shrink: 0;
-        margin: 0 30px 0 0;
     }
 
     .imgCard{
