@@ -6,7 +6,7 @@ import Titre from "../Titre";
 
 const FormationsCard = (props) => {
   return <FormationsCardStc>
-            <Container className="">
+            <Container className="container">
                 <Row className="ranger">
                     <Col lg={4}>
                         <div className="formation__2">

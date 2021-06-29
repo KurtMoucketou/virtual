@@ -34,7 +34,7 @@ const Menus02 = [
 const Footer = (props) => {
   return (
     <FooterStc>
-      <Container>
+      <Container className="container">
         <Row className="row__footer">
           <Col xl={5} className="col-xl-3 col-md-4 col-sm-7 col-12 max-mb-50" >
               <div className="footer__widget">

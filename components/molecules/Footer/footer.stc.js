@@ -112,5 +112,19 @@ const FooterStc = Styled.div`
             display:none;
         }
     }
+
+    @media screen and (min-width: 576px){
+
+            min-width: 100%!important;
+            align-items: center;
+    
+        .row__footer
+        {
+            width: 100%;            
+        }
+        
+
+    }
+
 `;
 export default FooterStc;

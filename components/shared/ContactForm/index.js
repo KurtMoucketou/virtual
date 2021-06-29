@@ -45,7 +45,7 @@ const FormContact = (props) => {
 
     <Form >
       <Container>
-      <FormGroup row>      
+      <FormGroup row className="the-form">      
         <Col className="col-sm-3" xl={3}>
         <Label for="etablissement" size="lg">Type D'etablissement</Label><br></br>
             <ButtonDropdown isOpen={dropdownOpen} toggle={toggle} className="btn__Drop">
@@ -63,7 +63,7 @@ const FormContact = (props) => {
         </Col>
 
         <Col className="col-sm-3" xs={3}>
-        <Label for="etablissement" size="lg">Series De Bac</Label><br></br>
+        <Label for="bac" size="lg">Series De Bac</Label><br></br>
             <ButtonDropdown isOpen={dropdownOpen1} toggle={toggle1} className="btn__Drop">
             <DropdownToggle caret>
                 Selectionner
@@ -79,7 +79,7 @@ const FormContact = (props) => {
         </Col>
 
         <Col className="col-sm-3" xs={3}>
-        <Label for="etablissement" size="lg">Pays</Label><br></br>
+        <Label for="pays" size="lg">Pays</Label><br></br>
             <ButtonDropdown isOpen={dropdownOpen2} toggle={toggle2} className="btn__Drop">
             <DropdownToggle caret>
             Selectionner
@@ -97,7 +97,7 @@ const FormContact = (props) => {
 
       <FormGroup row>      
         <Col className="col-sm-3" xl={3}>
-        <Label for="etablissement" size="lg">Villes</Label><br></br>
+        <Label for="ville" size="lg">Villes</Label><br></br>
             <ButtonDropdown isOpen={dropdownOpen} toggle={toggle} className="btn__Drop">
             <DropdownToggle caret>
             Selectionner

@@ -47,6 +47,11 @@ const FormationsCardStc = Styled.div`
     .col__container{
         max-width: 50%;
         flex: 0 0 50%;
+        //box-shadow: -20px 10px 20px rgba(0,0,0,0.1)!important;
+    }
+
+    .bSSlnZ .col__container{
+        box-shadow: -20px 10px 20px rgba(0,0,0,0.1);
     }
 
     .imgCard{
@@ -72,6 +77,35 @@ const FormationsCardStc = Styled.div`
         display: -webkit-inline-box;
         margin: 20px;
         margin-left: 0;
+    }
+
+============================ MEDIA SCREEN ============================= 
+
+    @media screen and (min-width: 576px){
+                
+
+        .container{
+            width: 100%;
+            height: 100%;
+        }
+        .ranger
+        {
+            display: flex;
+        }
+        
+        .col-lg-4{
+            margin-bottom: 3.5rem;
+            display: flex;
+            flex-direction: columns;
+        }
+
+        .col-lg-6, .col__container {
+            width: 100%;
+            display: flex;
+
+
+        }
+
     }
 
 `

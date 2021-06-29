@@ -15,12 +15,6 @@ const SectionFormStc = Styled.div`
     .header__form{
         display: block; 
     }
-
-    FormGroup{
-        width: -webkit-fill-available;
-        display: contents;
-        text-align: -webkit-left;
-    }
     
     .form-group {
         width: 100vw;
@@ -56,6 +50,14 @@ const SectionFormStc = Styled.div`
     .sousTitle__formContact{
         margin-right: 40px;
         margin-bottom: 0!important;
+    }
+
+    @media screen and (min-width: 576px){
+        .header__form{
+        grid-template-columns: repeat(2,1fr);
+
+    }
+
     }
 
 

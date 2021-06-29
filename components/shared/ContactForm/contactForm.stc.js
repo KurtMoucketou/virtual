@@ -58,6 +58,23 @@ const ContactFormStc = Styled.div`
         margin-bottom: 0!important;
     }
 
+    @media screen and (min-width: 576px){
+
+        .container{
+            width: 100%;
+            height: 100%;
+        }
+        
+        .the-form{
+            display: flex;
+            flex-direction: row;
+        }
+
+    }
+
+    
+
+
 
 `
 export default ContactFormStc;
