@@ -8,6 +8,13 @@ const FormationsCardStc = Styled.div`
         display: flex;
         justify-content: center;
 
+    .col__container{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+    .col__container:hover::before{
+        box-shadow: -20px 10px 20px rgba(0,0,0,0.1)!important;
+    }
 
     .ranger{
         display: flex;
@@ -42,16 +49,6 @@ const FormationsCardStc = Styled.div`
 
     .formation__2::before, .formation__2::after {
         box-sizing: inherit;
-    }
-
-    .col__container{
-        max-width: 50%;
-        flex: 0 0 50%;
-        //box-shadow: -20px 10px 20px rgba(0,0,0,0.1)!important;
-    }
-
-    .bSSlnZ .col__container{
-        box-shadow: -20px 10px 20px rgba(0,0,0,0.1);
     }
 
     .imgCard{
@@ -97,13 +94,12 @@ const FormationsCardStc = Styled.div`
             margin-bottom: 3.5rem;
             display: flex;
             flex-direction: columns;
+            box-shadow: -20px 10px 20px rgba(0,0,0,0.1);
         }
 
         .col-lg-6, .col__container {
             width: 100%;
             display: flex;
-
-
         }
 
     }
