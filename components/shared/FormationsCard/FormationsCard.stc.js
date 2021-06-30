@@ -88,13 +88,25 @@ const FormationsCardStc = Styled.div`
         .ranger
         {
             display: flex;
+            flex-wrap: nowrap;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: unset;
+            margin-right: -15px;
+            margin-left: -15px;
+            height: 100vw;
+            margin-bottom: .5rem;
         }
         
         .col-lg-4{
-            margin-bottom: 3.5rem;
             display: flex;
             flex-direction: columns;
-            box-shadow: -20px 10px 20px rgba(0,0,0,0.1);
+            box-shadow: -20px 10px 20px rgba(0,0,0,0.1)!important;
+            margin-bottom: .5rem!important;
+        }
+
+        .items .col-lg-4{
+            margin-bottom: .5rem!important;
         }
 
         .col-lg-6, .col__container {

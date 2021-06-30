@@ -8,7 +8,7 @@ const FormationsCard = (props) => {
   return <FormationsCardStc>
             <Container className="container">
                 <Row className="ranger">
-                    <Col lg={4}>
+                    <Col lg={4} className="items">
                         <div className="formation__2">
 
                             <div className="info">
@@ -28,7 +28,7 @@ const FormationsCard = (props) => {
                         </div>
                     </Col>
 
-                    <Col lg={4}>
+                    <Col lg={4} className="items">
                         <div className="formation__2">
 
                             <div className="info">
@@ -46,7 +46,7 @@ const FormationsCard = (props) => {
                         </div>
                     </Col>
 
-                    <Col lg={4}>
+                    <Col lg={4} className="items" >
                         <div className="formation__2">
 
                             <div className="info">
@@ -66,7 +66,7 @@ const FormationsCard = (props) => {
                 </Row>
 
                 <Row className="ranger mb-5 mt-5">
-                    <Col lg={4}>
+                    <Col lg={4} className="items">
                         <div className="formation__2">
 
                             <div className="info">
@@ -86,7 +86,7 @@ const FormationsCard = (props) => {
                         </div>
                     </Col>
 
-                    <Col lg={4}>
+                    <Col lg={4} className="items">
                         <div className="formation__2">
 
                             <div className="info">
@@ -104,7 +104,7 @@ const FormationsCard = (props) => {
                         </div>
                     </Col>
 
-                    <Col lg={4}>
+                    <Col lg={4} className="items">
                         <div className="formation__2">
 
                             <div className="info">
@@ -124,7 +124,7 @@ const FormationsCard = (props) => {
                 </Row>
 
                 <Row className="ranger mb-5 mt-5">
-                    <Col lg={4}>
+                    <Col lg={4} className="items">
                         <div className="formation__2">
 
                             <div className="info">
